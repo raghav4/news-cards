@@ -15,7 +15,6 @@ h1{
     left: 45%;
     color: white;
     text-shadow: 2px 2px #424242;
-    /* text-shadow: 2px 2px #16a085; */
 }
 #container{
     background-color: #212121;
@@ -81,3 +80,6 @@ h1{
     background-image: -o-linear-gradient(top, #ffaf46, #e78404);
     background-image: linear-gradient(to bottom, #ffaf46, #e78404);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
    }
+   .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
