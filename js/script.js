@@ -1,4 +1,4 @@
-const url = 'https://newsapi.org/v2/top-headlines?' + 'country=in&' + 'apiKey=2a3cd29248414c6aac7f7ece90cb82df';
+const url = 'https://newsapi.org/v2/top-headlines?' + 'country=in&' + 'apiKey=';
 let currentIndex = 0;
 let data = false;
 var ourRequest = new XMLHttpRequest();
