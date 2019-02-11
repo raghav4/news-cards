@@ -1,2 +1,2 @@
 # News Cards 
-![](ss.png)
+![](ss.PNG)
