@@ -2,7 +2,10 @@
 <html lang="en">
 <link rel="stylesheet" href="css/main.css">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+<link rel="shortcut icon" type="image/ico" href="assests/favicon.ico"/>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +15,15 @@
 <body>
     <h1>News Cards</h1>
     <div class = "anc"id = "container">
-        <h4>Title : </h4>
-        <h5>Author : </h5>
-        <p>Hello this is a container</p>
-        <a href="#" class="previous">&#8249;</a>
-        &nbsp;
-        <a href="#" class="next">&#8250;</a>
+        
     </div>
+    <div id="prevnext">
+        <button class="button" id="prev-button">Prev</button>
+        <button class="button" id="next-button">Next</button>
+    </div>
+    <br>
     <div id="footer">
-        <p>Powered by <a href="https://newsapi.org/" target="blank"> NewsAPI</a></p>
+        <p>Powered by <a href="https://newsapi.org/" class="credits" target="blank"> NewsAPI</a></p>
     </div>
 </body>
 <script src="js/script.js"></script>
