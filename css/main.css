@@ -1,110 +1,136 @@
-body{
-    background-color: #181717;
+body {
+    background-color: #181717 !important;
 }
-a.credits{
-    color: white;
-    text-decoration: none;
+
+a.credits {
+    color: white !important;
+    text-decoration: none !important;
 }
-a.rm{
-    color: white;
+
+a.rm {
+    color: white !important;
+    text-decoration: underline !important;
 }
-h1{
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    top: 5%;
-    left: 45%;
-    color: white;
-    text-shadow: 2px 2px #424242;
+
+h1 {
+    font-family: 'Lato', sans-serif !important;
+    padding-top: 5% !important;
+    text-align: center !important;
+    color: white !important;
+    text-shadow: 2px 2px #424242 !important;
 }
-#container{
-    background-color: #212121;
-    color: white;
-    padding: 15px;
-    margin-top: 120px;
-    margin-left: 400px;  
-    width: 50%;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+h4 {
+    font-family: 'Poppins', sans-serif !important;
 }
-#prevnext{
-    margin-top: 20px;
-    margin-left: 680px;
+#container {
+    background-color: #212121 !important;
+    color: white !important;
+    padding: 15px !important;
+    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1.5% !important;
+    /* margin-left: 400px !important; */
+    align-content: center;
+    width: 50% !important;
+    border-radius: 10px !important;
+    font-family: 'Poppins', sans-serif !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
-#footer{
-    font-size: 13px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    color:#16a085;
+
+#prevnext {
+    /* margin-top: 20px !important;
+    margin-left: 680px !important; */
+    margin: 0 auto !important;
+    width: 250px;
 }
+
+#footer {
+    font-size: 13px !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    color: #16a085 !important;
+}
+
 .next {
-    border-radius: 50%;
-    background-color: #424242;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-    text-align: right;
-  }
-  .previous {
-    border-radius: 50%;
-    background-color: #424242;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-    text-align: right;
-  }
-  .button {
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-    padding: 10px 26px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-
-.button{
-    border:1px solid #ff9913;
-    background-color: #ffaf46; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffaf46), to(#e78404));
-    background-image: -webkit-linear-gradient(top, #ffaf46, #e78404);
-    background-image: -moz-linear-gradient(top, #ffaf46, #e78404);
-    background-image: -ms-linear-gradient(top, #ffaf46, #e78404);
-    background-image: -o-linear-gradient(top, #ffaf46, #e78404);
-    background-image: linear-gradient(to bottom, #ffaf46, #e78404);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
-   }
-   .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-button:focus {
-    outline:0;
+    border-radius: 50% !important;
+    background-color: #424242 !important;
+    color: white !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    padding: 8px 16px !important;
+    text-align: right !important;
 }
 
-@media screen and (max-width: 480px){
-    h1{
-       margin-left: 0em;
+.previous {
+    border-radius: 50% !important;
+    background-color: #424242 !important;
+    color: white !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    padding: 8px 16px !important;
+    text-align: right !important;
+}
+
+.bttn {
+    font-family: 'Poppins', sans-serif !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: white !important;
+    cursor: pointer !important;
+    padding: 10px 26px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+}
+
+.bttn {
+    border: 1px solid #ff9913 !important;
+    background-color: #ffaf46 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffaf46), to(#e78404)) !important;
+    background-image: -webkit-linear-gradient(top, #ffaf46, #e78404) !important;
+    background-image: -moz-linear-gradient(top, #ffaf46, #e78404) !important;
+    background-image: -ms-linear-gradient(top, #ffaf46, #e78404) !important;
+    background-image: -o-linear-gradient(top, #ffaf46, #e78404) !important;
+    background-image: linear-gradient(to bottom, #ffaf46, #e78404) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffaf46, endColorstr=#e78404) !important;
+}
+
+.bttn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        margin-left: 0em !important;
     }
-    #container{
-       margin-left: 80px;
+
+    #container {
+        margin-left: 80px !important;
     }
-    .footer{
+
+    .footer {
         /* text-align: center;
         margin-top: 50px !important; */
-        background-color: #181717;
+        background-color: #181717 !important;
     }
-    .credits{
-        background-color: #181717;
+
+    .credits {
+        background-color: #181717 !important;
     }
-    #prevnext{
-        text-align: center;
-        position: absolute; right: 0;
-        margin-left: 0%;
-        margin-right: 90px;
+
+    #prevnext {
+        text-align: center !important;
+        position: absolute !important;
+        right: 0 !important;
+        margin-left: 0% !important;
+        margin-right: 90px !important;
     }
-    
+
 }
